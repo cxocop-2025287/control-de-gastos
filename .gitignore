@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Compilación
+dist/
+build/
+out/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Caché
+.cache/
+.npm/
+.pnpm-store/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / editores
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Cobertura de tests
+coverage/
